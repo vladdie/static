@@ -1,0 +1,15 @@
+#version 330 core
+
+// Interpolated values from the vertex shaders
+
+
+// Ouput data
+layout(location = 0) out vec3 color;
+
+
+
+void main(){
+
+		 color = vec3(0.8,0.8,0.8);
+
+}
